@@ -1,9 +1,4 @@
 var div1 = create('div', 'container-fluid mt-5 ml-5 p-5');
-
-let bg = document.querySelector('body');
-bg.style = 'background-image: linear-gradient(to right, #eec5dd, #e5c3e2, #dac1e6, #cdc0ea, #bec0ec, #afc5f3, #9ecbf7, #8cd0f7, #7bdcf5, #76e6ec, #84eedc, #9ff4c8);';
-
-
 var divarr = createElements('div', 'offset-md-2 offset-sm-1 row text-md-center text-sm-left h4 mb-0', 6);
 
 var input = create('input', 'col-8 border-3 border-light text-right mt-5 mb-1');
